@@ -92,7 +92,7 @@ body {
 
 /* ADVANTAGES */
 
-.hidden-title {
+.hidden-title .filter-title {
     visibility: hidden;
 }
 
@@ -152,9 +152,6 @@ body {
 
 /* FOOTER */
 
-.footer {
-    background-color: var(--navy-blue);
-}
 
 /* PORTFOLIO */
 
