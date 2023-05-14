@@ -23,6 +23,7 @@ body {
 /* HEADER */
 
 .header-link {
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -31,7 +32,7 @@ body {
 }
 
 .logo-color {
-    color: var(--iris);
+    color: var(--navy-blue);
 }
 
 .header-link:hover,
@@ -60,10 +61,10 @@ body {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--navy-blue);
+    color: var(--iris);
 }
 
 /* HERO */
@@ -75,7 +76,6 @@ body {
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
     color: var(--white);
 }
@@ -124,6 +124,14 @@ body {
 
 /* TEAM */
 
+.team {
+    background-color: var(--cloud);
+}
+
+.team-item {
+    background-color: var(--white);
+}
+
 .team-title {
     font-size: 36px;
     line-height: 1.11;
@@ -158,9 +166,13 @@ body {
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--iris);
+}
+
+.footer-color {
     color: var(--cloud);
 }
 
