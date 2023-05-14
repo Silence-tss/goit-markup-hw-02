@@ -169,7 +169,3 @@ body {
     letter-spacing: 0.04em;
     color: var(--iris);
 }
-
-.filter-link:hover, .filter-link:focus {
-    color: var(--white);
-}
