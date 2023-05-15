@@ -20,7 +20,6 @@ body {
 .link {
     text-decoration: none;
     font-style: normal;
-
 }
 
 /* HEADER */
@@ -45,6 +44,7 @@ body {
 
 
 .header-address-item {
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -89,7 +89,15 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--white);
+    background-color: var(--iris)
     cursor: pointer;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+    color: var(--white);
+    background-color: var(--ocean);
+
 }
 
 /* ADVANTAGES */
