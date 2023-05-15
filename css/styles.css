@@ -93,8 +93,8 @@ body {
     cursor: pointer;
 }
 
-.header-btn:hover,
-.header-btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
     color: var(--white);
     background-color: var(--ocean);
 
