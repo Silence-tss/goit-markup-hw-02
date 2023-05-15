@@ -24,6 +24,10 @@ body {
 
 /* HEADER */
 
+.header-address {
+    font-style: normal;
+}
+
 .header-link {
     font-style: normal;
     font-weight: 500;
@@ -78,6 +82,7 @@ body {
 .hero-title {
     font-size: 56px;
     line-height: 1.07;
+    text-align: center;
     letter-spacing: 0.02em;
     color: var(--white);
 }
@@ -128,6 +133,7 @@ body {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
     text-transform: capitalize;
     color: var(--navy-blue);
 }
@@ -196,18 +202,20 @@ body {
 /* PORTFOLIO */
 
 .filter-link {
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--ocean);
+    color: var(--iris);
+    background-color: var(--cloud);
+    cursor: pointer;
 }
 
 .filter-link:hover,
 .filter-link:focus {
     color: var(--white);
+    background-color: var(--ocean);
 }
 
 .portfolio-title {
